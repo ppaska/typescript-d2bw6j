@@ -16,6 +16,7 @@ const data = [
   { name: "Marry",country: "FR"},
   { name: "Luc",country: "FR"}
 ];
+
 // test
 const summaryForUS = dataPipe(data)
   .groupBy(i => i.country)
